@@ -1,0 +1,33 @@
+.home-wrap {
+	width: 80%;
+	margin: 50px auto 0;
+	/*text-align: center;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#headshot {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.intro {
+	width: 50%;
+	text-align: center;
+}
+
+@media screen and (max-width: 1130px) {
+	.home-wrap {
+		flex-direction: column;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.intro {
+		width: 80%;
+	}
+}

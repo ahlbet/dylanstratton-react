@@ -1,0 +1,69 @@
+.contact-wrap {
+	text-align: center;
+}
+
+.contact-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 65%;
+	margin: 0 auto;
+}
+
+.contact-gif {
+	height: 250px;
+	width: 40%;
+	margin: 10px;
+
+	border-radius: 5px
+}
+
+.contact-info {
+	width: 60%;
+	margin: 10px;
+
+	font-weight: 300;
+}
+
+.contact-info a {
+	text-decoration: none;
+	color: rgb(120, 0, 0);
+}
+
+#email {
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 960px) {
+	.contact-content {
+		flex-direction: column;
+	}
+
+	.contact-gif {
+		width: 70%;
+	}
+
+	.contact-info {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.contact-gif {
+		width: 100%;
+	}
+
+	.contact-info {
+		width: 100%;
+	}
+
+	#email {
+		font-size: 1.2em;
+	}
+}
+
+
+
+
+
+
